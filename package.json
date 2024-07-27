@@ -1,6 +1,6 @@
 {
   "name": "react-easy-datetime",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "A simple and easy-to-use date and time picker component for React",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
