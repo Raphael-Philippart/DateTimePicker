@@ -1,0 +1,12 @@
+.timeContainer {
+  display: flex;
+  margin: 2px auto;
+  max-width: var(--day-grid-width);
+  font-size: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+  .timeContainer {
+    font-size: 12px;
+  }
+}

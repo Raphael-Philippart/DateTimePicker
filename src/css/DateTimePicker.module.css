@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 100%;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.inputDefault {
+  padding: 4px;
+}
+
+.input:hover {
+  cursor: pointer;
+}

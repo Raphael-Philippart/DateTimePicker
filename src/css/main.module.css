@@ -1,0 +1,17 @@
+:root {
+  --primary-color: #ffffff;
+  --secondary-color: #cccccc;
+  --selected-color: #adadad;
+  --tertiary-color: #000000;
+  --background-color: #f5f5f5;
+  --secondary-background-color: #e2e2e2;
+  --border-color: #c5c4c4;
+  --border-focus-color: #c55656;
+  --border-size: 1px;
+  --day-grid-width: 250px;
+  --day-grid-gap: 2px;
+  --day-button-padding: calc(var(--day-grid-width) / 50);
+  --day-button-width: calc((var(--day-grid-width) - (6 * var(--day-grid-gap))) / 7);
+  --shadow: 5px 5px 15px -3px rgba(0, 0, 0, 0.1);
+  --transition-duration: 0.2s;
+}

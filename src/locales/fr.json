@@ -1,0 +1,24 @@
+{
+  "months": [
+    "Janvier",
+    "Février",
+    "Mars",
+    "Avril",
+    "Mai",
+    "Juin",
+    "Juillet",
+    "Août",
+    "Septembre",
+    "Octobre",
+    "Novembre",
+    "Décembre"
+  ],
+  "labels": {
+    "hour": "Heure",
+    "minute": "Minute",
+    "month": "Mois",
+    "selectADay": "Sélectionnez un jour",
+    "year": "Année"
+  },
+  "years": []
+}

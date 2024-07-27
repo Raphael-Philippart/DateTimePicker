@@ -1,0 +1,69 @@
+/* Container for the grid */
+.dg_b_c_Base {
+  position: absolute;
+  top: 110%;
+  left: -1px;
+  padding: 0 0 5px;
+  border-radius: 4px;
+  transition: box-shadow var(--transition-duration) ease;
+  z-index: 1000;
+}
+
+/* Container for the default grid */
+.dg_b_C_Default {
+  width: 300px;
+  background-color: var(--background-color);
+  border: var(--border-size) solid var(--border-color);
+}
+
+.dg_b_S {
+  display: flex;
+  margin: 2px auto;
+  font-size: 10px;
+  max-width: var(--day-grid-width);
+}
+
+/* Grid layout for day grids */
+.dg {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: var(--day-grid-gap);
+  max-width: var(--day-grid-width);
+  margin: 2px auto;
+}
+
+/* Base day buttons */
+.dg_b_Base {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  aspect-ratio: 1 / 1;
+  border-radius: 4px;
+}
+
+/* Base hover state day buttons */
+.dg_b_Base:hover {
+  cursor: pointer;
+}
+
+/* Default for day buttons */
+.dg_b_Default {
+  background: var(--secondary-background-color);
+  border-color: var(--border-color);
+}
+
+/* Default hover state for day buttons */
+.dg_b_Default:hover {
+  color: var(--tertiary-color);
+  background-color: var(--secondary-color);
+  border-color: var(--border-color);
+  box-shadow: var(--shadow);
+  cursor: pointer;
+}
+
+/* Default selected state for day buttons */
+.dg_b_Default.dg_b_Selected {
+  font-weight: bold;
+  color: var(--tertiary-color);
+  background-color: var(--selected-color);
+}

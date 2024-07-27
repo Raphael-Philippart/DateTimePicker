@@ -1,0 +1,6 @@
+.yearPicker {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  gap: 5px;
+}

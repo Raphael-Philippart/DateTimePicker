@@ -1,0 +1,55 @@
+{
+  "name": "react-easy-datetime",
+  "version": "1.0.10",
+  "description": "A simple and easy-to-use date and time picker component for React",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "src",
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -c -w",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Raphael-Philippart/DateTimePicker"
+  },
+  "homepage": "https://github.com/Raphael-Philippart",
+  "peerDependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.9",
+    "@babel/preset-env": "^7.24.8",
+    "@babel/preset-react": "^7.24.7",
+    "@babel/preset-typescript": "^7.24.7",
+    "@rollup/plugin-commonjs": "^26.0.1",
+    "@rollup/plugin-json": "^6.1.0",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@types/node": "^20.14.12",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "postcss": "^8.4.39",
+    "rollup": "^4.19.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-typescript2": "^0.36.0",
+    "typescript": "^5.5.4"
+  },
+  "author": "Raphaël Aka Neurøkardiak",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Raphael-Philippart/DateTimePicker/issues"
+  },
+  "dependencies": {
+    "classnames": "^2.5.1",
+    "prettier": "^3.3.3"
+  }
+}
