@@ -112,6 +112,29 @@ interface CustomizationProps {
 }
 ```
 
+## Dependencies
+
+This project relies on the following dependencies:
+
+| Package    | Version   |
+|------------|-----------|
+| Node.js    | 20.16.0   |
+| classnames | ^2.5.1    |
+| prettier   | ^3.3.3    |
+
+## Recommended IDE
+
+This project is best developed using [WebStorm](https://www.jetbrains.com/webstorm/), version **[2024.2.2]**.
+
+### IDE Setup
+
+To ensure the best development experience, it's recommended to use WebStorm with the following configurations:
+
+- WebStorm version: 2024.2.2
+- Node.js version: 20.16.0
+- Enable ESLint for code linting
+- Enable Prettier for code formatting
+
 # License
 
 This project is licensed under the MIT [License](LICENSE).
