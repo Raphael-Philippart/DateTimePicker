@@ -23,6 +23,19 @@ useEffect(() => {
 }, []);
 ```
 
+#### Supported Languages
+
+Currently, the component only supports English (us) and French (fr).
+
+If the detected language is not supported, the component will default to English.
+
+##### How It Works:
+The component looks for the lang attribute on the <html> element.
+
+If the attribute is set to "fr", the component will use French. Otherwise, it defaults to English ("us").
+
+More languages may be added in future updates.
+
 ### Screens 
 
 To use the DateTimePicker with hour and minute selection, set showTimeSelect to true.
