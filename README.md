@@ -12,7 +12,7 @@ This library provides a `DateTimePicker` component that can be easily integrated
 
 ## Automatic Language Detection
 
-The `react-easy-datetime` component automatically detects and adjusts its language based on the language of the website. It uses the `lang` attribute of the HTML `<html>` element to determine the appropriate locale. If no language is specified, it defaults to `us`.
+The `DateTimePicker` component automatically detects and adjusts its language based on the language of the website. It uses the `lang` attribute of the HTML `<html>` element to determine the appropriate locale. If no language is specified, it defaults to `us`.
 
 Here’s a simplified version of how the language detection works:
 
